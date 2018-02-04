@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(manipulator)
+add_subdirectory(application)
+add_subdirectory(source)
+include_directories(include)
